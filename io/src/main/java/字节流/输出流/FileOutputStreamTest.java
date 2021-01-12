@@ -1,6 +1,5 @@
 package main.java.字节流.输出流;
 
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
