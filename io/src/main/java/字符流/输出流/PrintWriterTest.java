@@ -14,6 +14,10 @@ public class PrintWriterTest {
         testFile();
     }
 
+    /**
+     * 写入到文件中
+     * @throws FileNotFoundException
+     */
     public static void testFile() throws FileNotFoundException {
         PrintWriter printWriter = new PrintWriter(new File("E:\\gitWorkSpace\\javaBaseLearn\\io\\src\\main\\java\\文件包\\PrintWriter.txt"));
         printWriter.println(123);
@@ -21,8 +25,6 @@ public class PrintWriterTest {
         printWriter.print("我是杨111111111111111111111");
         printWriter.append("cjxikgfsdjgfdslkfjsdf");
         printWriter.append("fdogeiopwfriroguhjifousdgio");
-        System.out.println();
-        //printWriter.flush();
         printWriter.close();
     }
 }
