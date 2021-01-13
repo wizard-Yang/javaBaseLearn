@@ -1,8 +1,5 @@
 package main.java.集合.Map接口;
 
-import java.util.HashMap;
-import java.util.Map;
-
 /**
  * @author saijun.yang
  * @date 2021/1/13 11:25
